@@ -1,4 +1,4 @@
-# Portfólio de Desenvolvimento Frontend em contrução 🌟
+# Portfólio em contrução 🌟
 
 Bem-vindo ao meu repositório de portfólio! Aqui você encontrará uma seleção dos meus projetos enquanto me aventuro no mundo do desenvolvimento frontend.
 
