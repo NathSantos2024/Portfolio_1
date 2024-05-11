@@ -1,0 +1,221 @@
+html {
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1140px;
+    background: #751373;
+    background: linear-gradient(90deg, #751373 20%, #da1bc9 50%, #e79091 90%);
+    background-size: 120% 120%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.cabecalho .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 35%;
+    border: 3px dotted #fff;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 70px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo {
+    color: #e79091;
+    border: 3px dotted #e79091;
+}
+
+.cabecalho .menu li a {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover {
+    background-color: #e79091;
+    color: #da1bc9;
+    border-radius: 20px;
+}
+
+.home {
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 60%;
+}
+
+.home .informacoes h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.home .informacoes p {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.home .redes-sociais {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.home .redes-sociais a i {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    padding: 14px 9px;
+    text-align: center;
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.home .redes-sociais a i:hover {
+    color: #e79091;
+    border: 2px solid #e79091;
+    transform: scale(1.3);
+}
+
+.home .container-foto .foto {
+    max-width: 500px;
+    border-radius: 49px;
+    border: 3px solid #fff;
+}
+
+.home .container-foto img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.home .foto.sombra-interna {
+    background: linear-gradient(to right, #3a303f, #614261, #302830);
+    height: 622px;
+}
+
+.projetos {
+    padding: 70px 0 70px;
+}
+
+.projetos .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.projetos .container-projetos {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projetos .projeto {
+    max-width: 500px;
+    position: relative;
+    display: none;
+}
+
+.projetos .projeto.ativo {
+    display: block;
+}
+
+.projetos .projeto img {
+    height: 100%;
+}
+
+.projetos .projeto h3 {
+    background-color: #040203;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.projetos .projeto .informacoes-projeto {
+    background-color: #040203;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.projetos .container-projetos .projeto:hover .informacoes-projeto {
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.projetos .btn-mostrar-projetos {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projetos .btn-mostrar-projetos:hover {
+    background-color: #e79091;
+    transition: 0.3s;
+
+}
+
+.projetos .btn-mostrar-projetos.remover {
+    display: none;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
