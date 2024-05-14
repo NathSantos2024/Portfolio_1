@@ -13,7 +13,7 @@ Aqui estão alguns dos meus projetos ativos:
 1. **Projeto 1:** Desenvolvido em JavaScript, HTML e CSS, [Jogo da velha](https://github.com/NathSantos2024/Jogo_da_Velha).
 2. **Projeto 2:** Responsivo feito com Bootstrap, HTML, CSS e JavaScript, [Formulário de reserva de hotel](https://github.com/NathSantos2024/Reserva_Hotel_Bootstrap).
 3. **Projeto 3:** Desenvolvido em HTML, CSS e JavaScript, [Jogo Pedra, Papel e Tesoura](https://github.com/NathSantos2024/Pedra_Papel_Tesoura).
-4. **Projeto 4:** Desenvolvida em JavaScript incluindo fetch API para fazer solicitações HTTP, HTML e CSS com vídeos de fundo dinâmicos, [Aplicação de previsão do tempo](https://github.com/NathSantos2024/Previsao_do_Tempo).
+4. **Projeto 4:** Desenvolvida em HTML com vídeos de fundo dinâmicos, CSS e JavaScript incluindo fetch API para fazer solicitações HTTP, [Aplicação de previsão do tempo](https://github.com/NathSantos2024/Previsao_do_Tempo).
 
 ## Como Contribuir 🤝
 
