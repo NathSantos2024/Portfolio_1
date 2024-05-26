@@ -39,6 +39,29 @@
         padding: 0px;
         margin-top: 0;
         margin-bottom: 15px;
+<<<<<<< HEAD
+    }
+    
+    .projetos .titulo {
+        padding: 20px;
+    }
+
+    .logo {
+        margin-right: 40px;
+    }
+
+    .home .redes-sociais {
+        gap: 10px;
+    }
+
+    .home .foto.sombra-interna {
+        height: 550px;
+    }
+    
+    .home .container-foto .foto {
+        max-width: 300px;
+=======
+>>>>>>> origin/master
     }
     
     .projetos .titulo {
