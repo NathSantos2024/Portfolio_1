@@ -15,6 +15,7 @@ Aqui estão alguns dos meus projetos ativos:
 3. **Projeto 3:** Desenvolvido em HTML, CSS e JavaScript, [Jogo Pedra, Papel e Tesoura](https://github.com/NathSantos2024/Pedra_Papel_Tesoura).
 4. **Projeto 4:** Desenvolvida em HTML com vídeos de fundo dinâmicos, CSS e JavaScript incluindo fetch API para fazer solicitações HTTP, [Aplicação de previsão do tempo](https://github.com/NathSantos2024/Previsao_do_Tempo).
 5. **Projeto 5:** Desenvolvida em JAVA e MySQL, [Aplicação POS (Point of Sale)](https://github.com/NathSantos2024/POS_Application).
+6. **Projeto 6:** Desenvolvida em HTML, CSS e JavaScript, [Landing Page de uma Agência de Viagens](https://github.com/NathSantos2024/dreamyturismo-website).
 
 ## Como Contribuir 🤝
 
