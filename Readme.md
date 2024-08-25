@@ -1,6 +1,6 @@
 # Portfólio em construção 🌟
 
-Bem-vindo ao meu repositório de portfólio! Aqui você encontrará uma seleção dos meus projetos enquanto me aventuro no mundo do desenvolvimento frontend.
+Bem-vindo ao meu repositório de [portfólio](https://nathsantos2024.github.io/Portfolio_1/)! Aqui você encontrará uma seleção dos meus projetos enquanto me aventuro no mundo do desenvolvimento frontend.
 
 ## Sobre Mim 💼
 
